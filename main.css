@@ -53,3 +53,58 @@
 #eventos i{
     font-size: 25px;
 }
+
+.plan {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 1.5em;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.recommended {
+    border: 2px solid #fcbc03;
+    box-shadow: 0 2px 5px #fcbc03;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #e6a603;
+    margin: 0.5em 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+.button-planos a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+.button-planos {
+    background-color: #fcbc03;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-planos:hover {
+    background-color: #e6a603;
+}
