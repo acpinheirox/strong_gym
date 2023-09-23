@@ -21,3 +21,35 @@
 #menu-navegacao{
     margin-top: 10px;
 }
+.container .row img{
+    margin-top: -100px;
+    
+}
+
+.section title{
+    font-family: "Roboto", sans-serif;
+}
+
+.section-title span{
+    color: #c92f01;
+}
+
+#sobre{
+    background-color: #ffe8ac;
+}
+
+.foto-sobre{
+    padding-top: 80px;
+}
+
+#eventos img{
+    margin-top: -60px;
+}
+
+#eventos h3{
+    margin-top: -60px;
+}
+
+#eventos i{
+    font-size: 25px;
+}
