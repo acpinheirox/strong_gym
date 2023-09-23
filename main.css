@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #fcbc03;
+    text-align: center;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fae6c8;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+}
+
+#cabecalho .nav .nav-link{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-toggler{
+    border: none;
+    font-size: 25px;
+}
+#menu-navegacao{
+    margin-top: 10px;
+}
