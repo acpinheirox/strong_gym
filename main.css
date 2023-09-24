@@ -27,7 +27,12 @@
     margin-top: -100px;
     
 }
-
+.img-carousel{
+    @media (max-width: 768px){
+        height: 100%;
+        width: 100%;
+    }
+}
 .section title{
     font-family: "Roboto", sans-serif;
 }
@@ -76,7 +81,9 @@
     border: 2px solid #fcbc03;
     box-shadow: 0 2px 5px #fcbc03;
 }
-
+.recommended:hover{
+    box-shadow: 0 5px 10px #fcbc03;
+}
 .price {
     font-size: 1.5em;
     color: #e6a603;
