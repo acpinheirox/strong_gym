@@ -129,3 +129,9 @@ li {
     background-color: #ffda7d;
     color: black;
 }
+
+.btn{
+    background-color: #ffda7d;
+    margin-top: -7px;
+    font-weight: 700;
+}
