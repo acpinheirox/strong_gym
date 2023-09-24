@@ -119,3 +119,13 @@ li {
     }
 }
 
+.accordion-button.active {
+    background-color: #ffc61d; 
+    color: #000000;
+    font-weight: 600;
+}
+
+.accordion-body{
+    background-color: #ffda7d;
+    color: black;
+}
