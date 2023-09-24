@@ -1,3 +1,10 @@
+body{
+
+    @media (max-width: 768px){
+        height: 520px;
+    }
+}
+
 .navbar{
     background-color: #fcbc03;
     text-align: center;
@@ -33,19 +40,22 @@
 #login{
     width: 1086px;
     height: 458px;
-    background-position: 100px -85px;
+    background-position: -75px -0px;
     background-size: cover;
-    background-image: url(./Imagens/pexels-anush-gorak-1229356.jpg);
+    background-image: url(./Imagens/background-2.jpg);
+    background-repeat: no-repeat;
 
     @media (max-width: 768px){
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 0px 0px;
+        background-position: -5px 0px;
+        background-image: url(./Imagens/background-2.jpg);
         height: 100%;
         width: 100%;
     }
 }
 .form_main {
+    margin-top: 10px;
     width: 220px;
     display: flex;
     flex-direction: column;
@@ -148,4 +158,11 @@
     border-radius: 20px;
   }
   
-  
+  footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 1em 0;
+    margin-top: -45px;
+}
