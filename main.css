@@ -31,7 +31,7 @@
 }
 
 .section-title span{
-    color: #c92f01;
+    color: #ffba0d;
 }
 
 #sobre{
@@ -108,3 +108,14 @@ li {
 .button-planos:hover {
     background-color: #e6a603;
 }
+
+.img-inicio{
+    padding-top: 90px;
+}
+
+.img-2{
+    @media (max-width: 768px){
+        padding-top: 100px;
+    }
+}
+
