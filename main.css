@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Laje:wght@500&display=swap');
+
 .navbar{
     background-color: #fcbc03;
     text-align: center;
@@ -40,6 +42,7 @@
 
 .foto-sobre{
     padding-top: 80px;
+    border-radius: 100%;
 }
 
 #eventos img{
@@ -134,4 +137,14 @@ li {
     background-color: #ffda7d;
     margin-top: -7px;
     font-weight: 700;
+}
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 1em 0;
+    margin-top: -7px;
 }
