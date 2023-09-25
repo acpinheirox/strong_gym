@@ -1,5 +1,8 @@
 body{
-
+    background-position: 0px 0px;
+    background-size: cover;
+    background-image: url(.//Imagens/teste-1.jpg);
+    background-repeat: no-repeat;
     @media (max-width: 768px){
         height: 520px;
     }
@@ -40,10 +43,7 @@ body{
 #login{
     width: 1086px;
     height: 458px;
-    background-position: -75px -0px;
-    background-size: cover;
-    background-image: url(./Imagens/background-2.jpg);
-    background-repeat: no-repeat;
+    
 
     @media (max-width: 768px){
         background-size: cover;
@@ -54,110 +54,17 @@ body{
         width: 100%;
     }
 }
-.form_main {
-    margin-top: 10px;
-    width: 220px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    padding: 30px 30px 30px 30px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .form_main::before {
-    position: absolute;
-    content: "";
-    width: 300px;
-    height: 300px;
-    background-color: #ffda7d;
-    transform: rotate(45deg);
-    left: -180px;
-    bottom: 30px;
-    z-index: 1;
-    border-radius: 30px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
-  }
-  
-  .heading {
-    font-size: 2em;
-    color: #2e2e2e;
-    font-weight: 700;
-    margin: 5px 0 10px 0;
-    z-index: 2;
-  }
-  
-  .inputContainer {
-    width: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-  }
-  
-  .inputIcon {
-    position: absolute;
-    left: 3px;
-  }
-  
-  .inputField {
-    width: 100%;
-    height: 30px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #e6a603;
-    margin: 10px 0;
-    color: black;
-    font-size: .8em;
-    font-weight: 500;
-    box-sizing: border-box;
-    padding-left: 30px;
-  }
-  
-  .inputField:focus {
-    outline: none;
-    border-bottom: 2px solid  #e6a603;
-  }
-  
-  .inputField::placeholder {
-    color: rgb(80, 80, 80);
-    font-size: 1em;
-    font-weight: 500;
-  }
-  
-  #button {
-    z-index: 2;
-    position: relative;
-    width: 100%;
-    border: none;
-    background-color: #fcb400;
-    height: 30px;
-    color: white;
-    font-size: .8em;
-    font-weight: 500;
-    letter-spacing: 1px;
-    margin: 10px;
-    cursor: pointer;
-  }
-  
-  #button:hover {
-    background-color: #ffc516;
-  }
-  
-  .forgotLink {
-    z-index: 2;
-    font-size: .7em;
-    font-weight: 500;
-    color: #c58d00;
-    text-decoration: none;
-    padding: 8px 15px;
-    border-radius: 20px;
-  }
-  
+.form-1{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.btn-1{
+background-color: #fcbc03;
+color: white;
+}
+.btn-1:hover{
+  background-color: #ffc516;
+  color: white;
+}
   footer {
     background-color: #000000;
     color: white;
