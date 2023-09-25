@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Gym</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./cadastro.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-0" id="cabecalho">
+        <div class="container">
+            <img  class="navbar-brand m-0" src="./Imagens/Logo-Header3.png" alt="" width="65px">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex m-0">
+                    <li class="nav-item fw-bold">
+                        <a href="./login.html" class="nav-link">
+                            <button class="btn btn-warning">Voltar</button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="cadastro" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-4">
+                        <div class="form-box">
+                            <form class="form">
+                                <span class="title">Cadastre-se</span>
+                                <span class="subtitle">Crie sua conta utilizando seu email.</span>
+                                <div class="form-container">
+                                  <input type="text" class="input" placeholder="Nome">
+                                        <input type="email" class="input" placeholder="E-mail">
+                                        <input type="password" class="input" placeholder="Senha">
+                                </div>
+                                <button>Enviar</button>
+                            </form>
+                            <div class="form-section">
+                              <p>Já tem conta? <a href="./login.html">Login</a> </p>
+                            </div>
+                            </div>
+                </div>
+                <div class="col-md-4">
+                        <form class="plan-chooser">
+                            <div class="header">
+                                <span class="title">Escolha seu plano</span>
+                                <p class="desc">O Seu Caminho Para o Sucesso Fitness.</p>
+                            </div>
+                            <div class="plan-option">
+                                <input value="free" id="free" name="plan" type="radio">
+                                    <label for="free">
+                                    <div class="plan-info">
+                                        <span class="plan-cost">R$ 59,90/mês</span>
+                                        <span class="plan-name">Plano mensal</span>
+                                    </div>
+                                    </label>
+                            </div>
+                            <div class="plan-option">
+                                <input value="monthly" id="monthly" name="plan" type="radio">
+                                    <label for="monthly">
+                                        <div class="plan-info">
+                                            <span class="plan-cost">R$ 69,90/mês</span>
+                                            <span class="plan-name">Plano mensal</span>
+                                        </div>
+                                    </label>
+                            </div>
+                            <div class="plan-option">
+                                <input value="annual" id="annual" name="plan" type="radio">
+                                    <label for="annual">
+                                        <div class="plan-info">
+                                            <span class="plan-cost">R$ 89,90/mês</span>
+                                            <span class="plan-name">Plano mensal</span>
+                                        </div>
+                                            <span class="reduction"> Desconto de 20% </span>
+                                    </label>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
