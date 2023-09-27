@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Gym</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Roboto+Laje:wght@500&display=swap" rel="folha de estilo">
+    <link rel="shortcut icon" href="./Imagens/Icone.png" type="image/x-icon">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-0" id="cabecalho">
+        <div class="container">
+            <img  class="navbar-brand m-0" src="./Imagens/Logo-Header3.png" alt="" width="65px">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex m-0">
+                    
+                    <li class="nav-item fw-bold">
+                        <a href="./index.html" class="nav-link">
+                            Voltar
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="./cadastro.html" class="nav-link">
+                            <button class="btn btn-warning">Cadastro</button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="login">
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body form-1">
+                            <h2 class="text-center">Login</h2>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Seu email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Senha</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Sua senha">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="remember">
+                                    <label class="form-check-label" for="remember">Lembrar-me</label>
+                                </div>
+                                <li>
+                                    <a href="./email.html">Esqueci minha senha</a>
+                                </li>
+                                <button type="submit" class="btn btn-1 btn-block">Entrar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; Strong Gym - Todos os direitos reservados
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

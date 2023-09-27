@@ -1,8 +1,9 @@
 body{
     background-position: 0px 0px;
     background-size: cover;
-    background-image: url(.//Imagens/teste-1.jpg);
+    background-image: url(/Imagens/background-login.jpg);
     background-repeat: no-repeat;
+    overflow-x: hidden;
     @media (max-width: 768px){
         height: 520px;
     }
@@ -55,15 +56,19 @@ body{
     }
 }
 .form-1{
+    background-color: #fffbee;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 .btn-1{
-background-color: #fcbc03;
-color: white;
+    margin-top: 15px;
+    background-color: #fcbc03;
+    color: white;
+    height: 40px;
 }
 .btn-1:hover{
-  background-color: #ffc516;
-  color: white;
+    background-color: #ffc516;
+    color: white;
+
 }
   footer {
     background-color: #000000;
@@ -72,4 +77,15 @@ color: white;
     font-size: 13px;
     padding: 1em 0;
     margin-top: -45px;
+}
+
+form a{
+    text-decoration: none;
+    list-style: none;
+}
+
+form li{
+    
+    font-size: 15px;
+    list-style: none;
 }

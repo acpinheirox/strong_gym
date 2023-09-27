@@ -1,5 +1,5 @@
 body{
-  background-image: url(./Imagens/teste-1.jpg);
+  background-image: url(/Imagens/background-login.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px 30px;
@@ -40,7 +40,7 @@ body{
 /*CADASTRO*/
 
 .form-1{
-  background-color: #fffcf8;
+  background-color: #fffbee;
   border: 1px solid rgb(238, 238, 238);
   margin-top: -20px;
   border-radius: 5%;
