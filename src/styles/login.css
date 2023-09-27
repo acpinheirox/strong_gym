@@ -1,11 +1,11 @@
 body{
-    background-position: 0px 0px;
+    background-position: 0px 53px;
     background-size: cover;
     background-image: url(/Imagens/background-login.jpg);
     background-repeat: no-repeat;
     overflow-x: hidden;
     @media (max-width: 768px){
-        height: 520px;
+        height: 480px;
     }
 }
 
@@ -77,6 +77,10 @@ body{
     font-size: 13px;
     padding: 1em 0;
     margin-top: -45px;
+    @media (max-width: 768px){
+        height: 100px;
+        margin-top: -50px;
+    }
 }
 
 form a{
