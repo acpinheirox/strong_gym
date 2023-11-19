@@ -5,7 +5,8 @@ body{
     background-repeat: no-repeat;
     overflow-x: hidden;
     @media (max-width: 768px){
-        height: 480px;
+        background: none;
+        background-color: #fffcf3;
     }
 }
 
@@ -42,19 +43,11 @@ body{
     font-weight: 700;
 }
 #login{
-    width: 1086px;
-    height: 458px;
+margin-top: 100px;
     
-
-    @media (max-width: 768px){
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: -5px 0px;
-        background-image: url(./Imagens/background-2.jpg);
-        height: 100%;
-        width: 100%;
-    }
 }
+
+
 .form-1{
     background-color: #fffbee;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -69,27 +62,4 @@ body{
     background-color: #ffc516;
     color: white;
 
-}
-  footer {
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    font-size: 13px;
-    padding: 1em 0;
-    margin-top: -45px;
-    @media (max-width: 768px){
-        height: 100px;
-        margin-top: -50px;
-    }
-}
-
-form a{
-    text-decoration: none;
-    list-style: none;
-}
-
-form li{
-    
-    font-size: 15px;
-    list-style: none;
 }
